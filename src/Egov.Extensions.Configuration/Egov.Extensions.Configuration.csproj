@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <!-- NuGet Package Metadata -->
+    <PackageId>Egov.Extensions.Configuration</PackageId>
+    <Authors>egov.md</Authors>
+    <Company>egov.md</Company>
+    <Product>Egov.Extensions.Configuration</Product>
+    <Description>
+      Helpers for certificate loading and configuring IOptions&lt;SystemCertificateOptions&gt; in ASP.NET Core applications.
+      Supports PFX, CER/CRT, and PEM certificate formats, including Kubernetes TLS secrets (tls.crt / tls.key).
+      Use CertificateLoader to load certificates directly, or call AddSystemCertificate on the DI services collection.
+    </Description>
+    <PackageTags>certificate;x509;configuration;aspnetcore;kubernetes;tls;ssl;options;egov</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageProjectUrl>https://github.com/egov-moldova/Egov.Extensions.Configuration</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/egov-moldova/Egov.Extensions.Configuration.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReleaseNotes>Initial public release.</PackageReleaseNotes>
+
+    <!-- Build -->
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleToAttribute">
+      <_Parameter1>Egov.Extensions.Configuration.Tests</_Parameter1>
+    </AssemblyAttribute>
+    <None Include="..\..\README.md" Pack="true" PackagePath="/" Link="README.md" />
+    <None Include="..\..\LICENSE" Pack="true" PackagePath="/" Link="LICENSE" />
+  </ItemGroup>
+
+</Project>
