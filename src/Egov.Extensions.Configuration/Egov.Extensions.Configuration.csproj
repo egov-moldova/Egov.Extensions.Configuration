@@ -18,6 +18,7 @@
     <PackageTags>certificate;x509;configuration;aspnetcore;kubernetes;tls;ssl;options;egov</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>icon.png</PackageIcon>
     <PackageProjectUrl>https://github.com/egov-moldova/Egov.Extensions.Configuration</PackageProjectUrl>
     <RepositoryUrl>https://github.com/egov-moldova/Egov.Extensions.Configuration.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
@@ -36,6 +37,7 @@
     </AssemblyAttribute>
     <None Include="..\..\README.md" Pack="true" PackagePath="/" Link="README.md" />
     <None Include="..\..\LICENSE" Pack="true" PackagePath="/" Link="LICENSE" />
+    <None Include="icon.png" Pack="true" PackagePath="/" />
   </ItemGroup>
 
 </Project>
