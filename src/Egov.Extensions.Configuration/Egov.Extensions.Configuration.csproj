@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
@@ -22,7 +22,7 @@
     <PackageProjectUrl>https://github.com/egov-moldova/Egov.Extensions.Configuration</PackageProjectUrl>
     <RepositoryUrl>https://github.com/egov-moldova/Egov.Extensions.Configuration.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageReleaseNotes>Initial public release.</PackageReleaseNotes>
+    <PackageReleaseNotes>Release notes: https://github.com/egov-moldova/Egov.Extensions.Configuration/blob/master/CHANGELOG.md</PackageReleaseNotes>
 
     <!-- Build -->
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
